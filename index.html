@@ -15,7 +15,8 @@
 
   <!-- Шапка -->
   <header class="arsenal-page__header header">
-    <div class="header__user-block user-block">
+
+    <section class="header__user-block user-block">
       <div class="user-block__adress adress">
         <span class="adress__city">Новосибирск</span>
         <span class="adress__street">ул. Октябрьская, 34</span>
@@ -35,8 +36,8 @@
         <a class="profile__link" href="#">Мой арсенал</a>
         <button class="profile__login-button"></button>
       </div>
-    </div>
-    <div class=" header__search-block search-block">
+    </section>
+    <section class=" header__search-block search-block">
       <div class="search-block__logo"></div>
       <span class="search-block__slogan">Мы работаем на ваш талант!</span>
       <div class="search-block__field search-field">
@@ -50,25 +51,76 @@
         <span class="cart__text">Корзина</span>
         <span class="cart__number">25</span>
       </div>
-    </div>
-    <div class="header__menu-block menu-block">
-      <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+    </section>
+    <section class="header__menu-block menu-block">
+      <ul class="menu-block__menu-level-1 menu-level-1">
+        <li><a href="#">Акции</a></li>
+        <li>
+          <a href="#">Музыкальные инструменты</a>
+          <ul class="menu-level-1__menu-level-2 menu-level-2">
+            <li><a href="#">Гитары</a></li>
+            <li>
+              <a href="#">Ударные</a>
+              <ul class="menu-level-2__menu-level-3 menu-level-3">
+                <li><a href="#">Тарелки</a></li>
+                <li><a href="#">Тренировочные пэды</a></li>
+                <li><a href="#">Пластинки</a></li>
+                <li><a href="#">Барабанные палочки</a></li>
+                <li><a href="#">Чехлы, кейсы, сумки</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Перкуссия</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Клавишные</a></li>
+            <li><a href="#">Духовые</a></li>
+            <li><a href="#">Смычковые</a></li>
+            <li><a href="#">Гародные</a></li>
+          </ul>
+        </li>
+        <li><a href="#">DJ</a></li>
+        <li><a href="#">Шоу-техника</a></li>
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Звук</a></li>
+        <li><a href="#">Свет</a></li>
+        <li><a href="#">Коммутация</a></li>
+        <li><a href="#">Стойки</a></li>
       </ul>
-    </div>
+    </section>
 
   </header>
 
   <!-- Основное содержимое -->
   <main class="arsenal-page__main main">
+
+    <section class="main__banner-section banner-section">
+      <div class="banner-section__cycle-slideshow cycle-slideshow"
+           data-cycle-fx="scrollHorz"
+           data-cycle-timeout="10000"
+           data-cycle-speed="1000"
+           data-cycle-slides="a"
+           data-cycle-pager=".custom-pager"
+           data-cycle-next=".cycle-next"
+           data-cycle-prev=".cycle-prev"
+           data-cycle-pager-template=" <a href='#' class='custom-pager-button'> </a>">
+        <a href="/page1.html"><img name="img" src="img/banner.jpg"></a>
+        <a href="/page2.html"><img name="img" src="img/banner.jpg"></a>
+        <a href="/page3.html"><img name="img" src="img/banner.jpg"></a>
+        <a href="/page4.html"><img name="img" src="img/banner.jpg"></a>
+      </div>
+      <div class="banner-section__custom-pager custom-pager">
+      </div>
+    </section>
+
+    <section class="main__brands brands">
+      <a class="brands__brand-abk-link brand-link"><img src="#" class="brands__brand-abk-img brand-img"></a>
+      <a class="brands__brand-aria-link brand-link"><img src="#" class="brands__brand-aria-img brand-img"></a>
+      <a class="brands__brand-jts-link brand-link"><img src="#" class="brands__brand-jts-img brand-img"></a>
+      <a class="brands__brand-pioneer-link brand-link"><img src="#" class="brands__brand-pioneer-img brand-img"></a>
+      <a class="brands__brand-robe-link brand-link"><img src="#" class="brands__brand-robe-img brand-img"></a>
+      <a class="brands__brand-daddario-link brand-link"><img src="#" class="brands__brand-daddario-img brand-img"></a>
+      <a class="brands__brand-schecter-link brand-link"><img src="#" class="brands__brand-schecter-img brand-img"></a>
+      <a class="brands__more more">Все производители</a>
+    </section>
 
   </main>
 
