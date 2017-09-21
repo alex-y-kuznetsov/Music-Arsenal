@@ -17,13 +17,13 @@
   <header class="arsenal-page__header header">
 
     <section class="header__user-block user-block">
-      <div class="user-block__adress adress_header">
-        <span class="adress__city">Новосибирск</span>
-        <span class="adress__street">ул. Октябрьская, 34</span>
+      <div class="user-block__address address_header">
+        <button class="address__city">Новосибирск</button>
+        <button class="address__street">ул. Октябрьская, 34</button>
       </div>
       <div class="user-block__phone phone">
-        <a href="tel: +73832408080" class="phone__number_code">(383) 240-80-80</a>
-        <a href="tel: +73832408000" class="phone__number">240-80-00</a>
+        <a href="tel: +73832408080" class="phone-number">(383) 240-80-80</a>
+        <a href="tel: +73832408000" class="phone-number">240-80-00</a>
       </div>
       <div class="user-block__details details">
         <ul>
@@ -54,36 +54,36 @@
     </section>
     <section class="header__menu-block menu-block">
       <ul class="menu-block__menu-level-1 menu-level-1">
-        <li><a href="#">Акции</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Акции</a></li>
         <li>
-          <a href="#">Музыкальные инструменты</a>
+          <a class="menu-block__link menu-level-1__link" href="#">Музыкальные инструменты</a>
           <ul class="menu-level-1__menu-level-2 menu-level-2">
-            <li><a href="#">Гитары</a></li>
+            <li><a class="menu-block__link menu-level-2__link" href="#">Гитары</a></li>
             <li>
-              <a href="#">Ударные</a>
+              <a class="menu-block__link menu-level-2__link" href="#">Ударные</a>
               <ul class="menu-level-2__menu-level-3 menu-level-3">
-                <li><a href="#">Тарелки</a></li>
-                <li><a href="#">Тренировочные пэды</a></li>
-                <li><a href="#">Пластинки</a></li>
-                <li><a href="#">Барабанные палочки</a></li>
-                <li><a href="#">Чехлы, кейсы, сумки</a></li>
-                <li><a href="#">Аксессуары</a></li>
-                <li><a href="#">Перкуссия</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Тарелки</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Тренировочные пэды</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Пластинки</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Барабанные палочки</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Чехлы, кейсы, сумки</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Аксессуары</a></li>
+                <li><a class="menu-block__link menu-level-3__link" href="#">Перкуссия</a></li>
               </ul>
             </li>
-            <li><a href="#">Клавишные</a></li>
-            <li><a href="#">Духовые</a></li>
-            <li><a href="#">Смычковые</a></li>
-            <li><a href="#">Гародные</a></li>
+            <li><a class="menu-block__link menu-level-2__link" href="#">Клавишные</a></li>
+            <li><a class="menu-block__link menu-level-2__link" href="#">Духовые</a></li>
+            <li><a class="menu-block__link menu-level-2__link" href="#">Смычковые</a></li>
+            <li><a class="menu-block__link menu-level-2__link" href="#">Гародные</a></li>
           </ul>
         </li>
-        <li><a href="#">DJ</a></li>
-        <li><a href="#">Шоу-техника</a></li>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Звук</a></li>
-        <li><a href="#">Свет</a></li>
-        <li><a href="#">Коммутация</a></li>
-        <li><a href="#">Стойки</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">DJ</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Шоу-техника</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Студия</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Звук</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Свет</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Коммутация</a></li>
+        <li><a class="menu-block__link menu-level-1__link" href="#">Стойки</a></li>
       </ul>
     </section>
 
@@ -92,7 +92,7 @@
   <!-- Основное содержимое -->
   <main class="arsenal-page__main main">
 
-    <section class="main__banner-section banner-section">
+    <section class="main__banner-section banner-section main__section">
       <div class="banner-section__cycle-slideshow cycle-slideshow"
            data-cycle-fx="scrollHorz"
            data-cycle-timeout="10000"
@@ -111,25 +111,25 @@
       </div>
     </section>
 
-    <section class="main__brands brands">
-      <a href="#" class="brands__brand-abk-link brand-link"><img alt="ABK" src="#" class="brands__brand-abk-img brand-img"></a>
-      <a href="#" class="brands__brand-aria-link brand-link"><img alt="ARIA" src="#" class="brands__brand-aria-img brand-img"></a>
-      <a href="#" class="brands__brand-jts-link brand-link"><img alt="JTS" src="#" class="brands__brand-jts-img brand-img"></a>
-      <a href="#" class="brands__brand-pioneer-link brand-link"><img alt="Pioneer" src="#" class="brands__brand-pioneer-img brand-img"></a>
-      <a href="#" class="brands__brand-robe-link brand-link"><img alt="ROBE" src="#" class="brands__brand-robe-img brand-img"></a>
-      <a href="#" class="brands__brand-daddario-link brand-link"><img alt="D'Addario" src="#" class="brands__brand-daddario-img brand-img"></a>
-      <a href="#" class="brands__brand-schecter-link brand-link"><img alt="Schecter" src="#" class="brands__brand-schecter-img brand-img"></a>
-      <div class="banner-switch banner-switch-prev banner-switch_brands">
+    <section class="main__brands brands main__section">
+      <a href="#" class="brands__brand-link brand-link"><img alt="ABK" src="#" class="brands__brand-img brand-img"></a>
+      <a href="#" class="brands__brand-link brand-link"><img alt="ARIA" src="#" class="brands__brand-img brand-img"></a>
+      <a href="#" class="brands__brand-link brand-link"><img alt="JTS" src="#" class="brands__brand-img brand-img"></a>
+      <a href="#" class="brands__brand-link brand-link"><img alt="Pioneer" src="#" class="brands__brand-img brand-img"></a>
+      <a href="#" class="brands__brand-link brand-link"><img alt="ROBE" src="#" class="brands__brand-img brand-img"></a>
+      <a href="#" class="brands__brand-link brand-link"><img alt="D'Addario" src="#" class="brands__brand-img brand-img"></a>
+      <a href="#" class="brands__brand-link brand-link"><img alt="Schecter" src="#" class="brands__brand-img brand-img"></a>
+      <div class="banner-switch banner-switch_prev banner-switch_brands">
         <button class="cycle-prev"></button>
       </div>
-      <div class="banner-switch banner-switch-next banner-switch_brands">
+      <div class="banner-switch banner-switch_next banner-switch_brands">
         <button class="cycle-next"></button>
       </div>
       <a href="#" class="brands__more more">Все производители</a>
     </section>
 
-    <section class="main__sale sale shop-section">
-      <div class="section-title section-title_sale">
+    <section class="shop-section main__section">
+      <div class="section-title">
         <h2>Распродажа инструментов</h2>
       </div>
       <div class="sale__categories categories">
@@ -143,7 +143,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">Hohner Bravo III 96 RED</h1>
           <p class="shop-item__description">Аккордеон в стиле &#34;Юнион Джек&#34;. Выпущен ограниченным тиражом.</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -154,7 +154,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">DBZ Halifire</h1>
           <p class="shop-item__description">Электрогитара в стиле &#34;Юнион Джек&#34;. Выпущена ограниченным тиражом.</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -165,7 +165,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">Htarl Sparkle Burst</h1>
           <p class="shop-item__description">Малый барабан MCX Masters Custom 14x5.5 (клен)</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -176,7 +176,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">Yamaha P-105B</h1>
           <p class="shop-item__description">Компактное электропианино, оснащенное стерео-семплированными тембрами!</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -196,8 +196,8 @@
       </div>
     </section>
 
-    <section class="main__services services">
-      <div class="section-title section-title_services">
+    <section class="main__services services main__section">
+      <div class="section-title section-title_white-back">
         <h2>Услуги</h2>
       </div>
       <article class="services__service-item service-item">
@@ -238,8 +238,8 @@
       </article>
     </section>
 
-    <section class="main__events events">
-      <div class="section-title section-title_events">
+    <section class="main__events events main__section">
+      <div class="section-title">
         <h2>Акции</h2>
       </div>
       <article class="events__event-item event-item">
@@ -268,8 +268,8 @@
       </div>
     </section>
 
-    <section class="main__new new shop-section">
-      <div class="section-title section-title_sale">
+    <section class="shop-section main__section">
+      <div class="section-title">
         <h2>Распродажа инструментов</h2>
       </div>
       <div class="sliding-items sliding-items_new">
@@ -277,7 +277,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">Hohner Bravo III 96 RED</h1>
           <p class="shop-item__description">Аккордеон в стиле &#34;Юнион Джек&#34;. Выпущен ограниченным тиражом.</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -288,7 +288,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">ARIA PRO II IMPERIAL</h1>
           <p class="shop-item__description">Электрогитара в стиле &#34;Юнион Джек&#34;. Выпущена ограниченным тиражом.</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -299,7 +299,7 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">Amati AHR 332-O</h1>
           <p class="shop-item__description">Валторна одинарная 4-ч вентельная, лакированная.</p>
-          <span class="shop-item__price_previous">35 400</span><span class="shop-item__price_current">31 400 &#8381;</span>
+          <span class="shop-item__price">35 400</span><span class="shop-item__price_special">31 400 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
@@ -310,17 +310,17 @@
           <img class="shop-item__img">
           <h1 class="shop-item__title">Yamaha YTR-3335</h1>
           <p class="shop-item__description">Эта труба — флагман 3-1 серии Yamaha. Обновленный дизайн, свежее звучание и улучшенная механика.</p>
-          <span class="shop-item__price_previous">89 750</span><span class="shop-item__price_current">83 550 &#8381;</span>
+          <span class="shop-item__price">89 750</span><span class="shop-item__price_special">83 550 &#8381;</span>
           <div class="shop-item__context-menu context-menu">
             <button class="context-menu__add"><img src="#" alt="add"></button>
             <button class="context-menu__rate"><img src="#" alt="rate"></button>
             <button class="context-menu__like"><img src="#" alt="like"></button>
           </div>
         </article>
-        <div class="banner-switch banner-switch-prev banner-switch_shop">
+        <div class="banner-switch banner-switch_prev banner-switch_shop">
           <button class="cycle-prev"></button>
         </div>
-        <div class="banner-switch banner-switch-next banner-switch_shop">
+        <div class="banner-switch banner-switch_next banner-switch_shop">
           <button class="cycle-next"></button>
         </div>
       </div>
@@ -330,49 +330,49 @@
       </div>
     </section>
 
-    <section class="main__news-and-reviews news-and-reviews">
-      <div class="news-and-reviews__news news">
-        <h2 class="news-and-reviews__title">Новости</h2>
-        <article class="news__news-item news-and-reviews-item">
-          <img class="news-and-reviews-item__img" src="#">
-          <div class="news-item__content news-and-reviews-content">
-            <a class="news-and-reviews-content__title">Мастер-класс Данила Прокопьева в Краснодаре</a>
-            <p class="news-and-reviews-content__description">Мастер-класс состоится 18 октября 2014 года в 15.30 в музыкальном центре SOROKA.</p>
-            <span class="news-and-reviews-content__date">18 июня 2014г.</span>
+    <section class="main__announcements announcements main__section">
+      <div class="announcements__col announcements-col">
+        <h2 class="announcements__title">Новости</h2>
+        <article class="announcements-item">
+          <img class="announcements-item__img" src="#">
+          <div class="announcements-item__content announcements-content">
+            <a class="announcements-content__title">Мастер-класс Данила Прокопьева в Краснодаре</a>
+            <p class="announcements-content__description">Мастер-класс состоится 18 октября 2014 года в 15.30 в музыкальном центре SOROKA.</p>
+            <span class="announcements-content__date">18 июня 2014г.</span>
           </div>
         </article>
-        <article class="news__news-item news-and-reviews-item">
-          <img class="news-and-reviews-item__img" src="#">
-          <div class="news-item__content news-and-reviews-content">
-            <a class="news-and-reviews-content__title">Ирина Стачинская — официальный артист Powell</a>
-            <p class="news-and-reviews-content__description">С 6 лет, с момента поступления в музыкальный колледж имени Гнесиных, ее самым близким другом стала флейта</p>
-            <span class="news-and-reviews-content__date">18 июня 2014г.</span>
+        <article class="announcements-item">
+          <img class="announcements-item__img" src="#">
+          <div class="announcements-item__content announcements-content">
+            <a class="announcements-content__title">Ирина Стачинская — официальный артист Powell</a>
+            <p class="announcements-content__description">С 6 лет, с момента поступления в музыкальный колледж имени Гнесиных, ее самым близким другом стала флейта</p>
+            <span class="announcements-content__date">18 июня 2014г.</span>
           </div>
         </article>
-        <div class="news-and-reviews__read-more read-more">
+        <div class="announcements__read-more read-more">
           <a href="#">Все новости</a>
           <a href="#">Подписаться</a>
         </div>
       </div>
-      <div class="news-and-reviews__reviews reviews">
-        <h2 class="news-and-reviews__title">Обзоры</h2>
-        <article class="reviews__reviews-item news-and-reviews-item">
-          <img class="news-and-reviews-item__img" src="#">
-          <div class="reviews-item__content news-and-reviews-content">
-            <a class="news-and-reviews-content__title">Новые модели гитар Fina!</a>
-            <p class="news-and-reviews-content__description">Классическая гитара Fina FC-603 и электроаккустическая гитара FR-82CEQ!</p>
-            <span class="news-and-reviews-content__date">18 июня 2014г.</span>
+      <div class="announcements__col announcements-col">
+        <h2 class="announcements__title">Обзоры</h2>
+        <article class="announcements-item">
+          <img class="announcements-item__img" src="#">
+          <div class="announcements-item__content announcements-content">
+            <a class="announcements-content__title">Новые модели гитар Fina!</a>
+            <p class="announcements-content__description">Классическая гитара Fina FC-603 и электроаккустическая гитара FR-82CEQ!</p>
+            <span class="announcements-content__date">18 июня 2014г.</span>
           </div>
         </article>
-        <article class="news__news-item news-and-reviews-item">
-          <img class="news-and-reviews-item__img" src="#">
-          <div class="news-item__content news-and-reviews-content">
-            <a class="news-and-reviews-content__title">Гитары Spread Music в Музыкальном Арсенале</a>
-            <p class="news-and-reviews-content__description">В широком ассортименте товары для учащихся музыкальных школЖ клавишные, духовые, струнные и ударные инструменты.</p>
-            <span class="news-and-reviews-content__date">18 июня 2014г.</span>
+        <article class="announcements-item announcements-item">
+          <img class="announcements-item__img" src="#">
+          <div class="announcements-item__content announcements-content">
+            <a class="announcements-content__title">Гитары Spread Music в Музыкальном Арсенале</a>
+            <p class="announcements-content__description">В широком ассортименте товары для учащихся музыкальных школЖ клавишные, духовые, струнные и ударные инструменты.</p>
+            <span class="announcements-content__date">18 июня 2014г.</span>
           </div>
         </article>
-        <div class="news-and-reviews__read-more read-more">
+        <div class="announcements__read-more read-more">
           <a href="#">Все новости</a>
           <a href="#">Подписаться</a>
         </div>
@@ -387,14 +387,14 @@
       <div class="footer__credits credits">
         <span class="credits__copyright">&#9400; 2014 Музыкальный арсенал</span>
         <a href="#" class="credits__terms">Правила использования сайта</a>
-        <span class="credits__development">Разработка сайта — </span><a href="#">klassman.ru</a>
-        <span class="credits__design">Дизайн сайта — </span><a href="#">yuriev.pro</a>
+        <span class="credits__development"><a href="#">Разработка сайта</a> — klassman.ru</span>
+        <span class="credits__design"><a href="#">Дизайн сайта</a> — yuriev.pro</span>
       </div>
-      <div class="footer__adress adress_footer">
-        <span class="adress__shop">Магазин в Новосибирске</span>
-        <span class="adress__street_footer">ул. Октябрьская, 34</span>
-        <span class="adress__phone_footer">(383) 240-80-80, 240-80-80</span>
-        <span class="adress__hours_footer">Сегодня с 10:00 до 19:00</span>
+      <div class="footer__address footer-address">
+        <span class="footer-address__shop">Магазин в Новосибирске</span>
+        <span class="footer-address__line icons icons_street arsenal-page__icons">ул. Октябрьская, 34</span>
+        <span class="footer-address__line phone-number icons icons_phone arsenal-page__icons">(383) 240-80-80, 240-80-80</span>
+        <span class="footer-address__line icons icons_hours arsenal-page__icons">Сегодня с 10:00 до 19:00</span>
       </div>
       <div class="footer__social social">
         <a href="#" class="social__vk"><img src="#"></a>
@@ -403,7 +403,7 @@
       </div>
     </div>
     <div class="footer-right-column">
-      <div class="footer-contents-col1 footer-right-column__col1">
+      <div class="footer-contents-col footer-right-column__col">
         <a href="#" class="footer-right-column__link">О компании</a>
         <a href="#" class="footer-right-column__link">Наша история</a>
         <a href="#" class="footer-right-column__link">Благодарности</a>
@@ -411,14 +411,14 @@
         <a href="#" class="footer-right-column__link">Магазины</a>
         <a href="#" class="footer-right-column__link">Контакты</a>
       </div>
-      <div class="footer-contents-col2 footer-right-column__col2">
+      <div class="footer-contents-col footer-right-column__col">
         <a href="#" class="footer-right-column__link">Эндорсеры</a>
         <a href="#" class="footer-right-column__link">Коллектив</a>
         <a href="#" class="footer-right-column__link">Вакансии</a>
         <a href="#" class="footer-right-column__link">Новости</a>
         <a href="#" class="footer-right-column__link">Обзоры</a>
       </div>
-      <div class="footer-contents-col3 footer-right-column__col3">
+      <div class="footer-contents-col footer-right-column__col">
         <a href="#" class="footer-right-column__link">Акции</a>
         <a href="#" class="footer-right-column__link">Распродажи</a>
         <a href="#" class="footer-right-column__link">Товары</a>
