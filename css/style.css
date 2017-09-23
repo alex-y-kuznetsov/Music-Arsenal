@@ -228,11 +228,14 @@
 }
 
 .menu-level-1__menu-item {
-  padding: 15px;
+  padding: 20px 15px;
 }
 
 .menu-block__link {
   font-size: 17px;
+  text-decoration: none;
+  color: #503737;
+  vertical-align: middle;
 }
 
 .menu-level-1__link_bold {
