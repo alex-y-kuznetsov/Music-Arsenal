@@ -6,3 +6,90 @@
   font-weight: normal;
   line-height: 20px;
 }
+
+.container_header {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.user-block {
+  background-color: #af9559;
+  min-height: 50px;
+}
+
+.user-block__item {
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.user-block__address {
+  margin-right: 77px;
+}
+
+.city-btn {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #ffffff;
+  color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+  line-height: 16px;
+}
+
+.address__city-btn {
+  margin-right: 23px;
+}
+
+.street-btn {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+  line-height: 16px;
+}
+
+.phone-number {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.user-block__phone {
+  margin-right: 44px;
+}
+
+.user-block__details {
+  margin-right: 23px;
+}
+
+.details-link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.details__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.details__menu-item {
+  display: inline;
+  margin-right: 17px;
+}
+
+.profile-link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px dotted #ffffff;
+}
+
+.profile__link {
+  margin-right: 19px;
+}
+
+.login-button {
+  cursor: pointer;
+}

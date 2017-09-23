@@ -17,74 +17,79 @@
   <header class="arsenal-page__header header">
 
     <section class="header__user-block user-block">
-      <div class="user-block__address address_header">
-        <button class="address__city-btn">Новосибирск</button>
-        <button class="address__street-btn">ул. Октябрьская, 34</button>
-      </div>
-      <div class="user-block__phone phone">
-        <a href="tel: +73832408080" class="phone-number">(383) 240-80-80</a>
-        <a href="tel: +73832408000" class="phone-number">240-80-00</a>
-      </div>
-      <div class="user-block__details details">
-        <ul>
-          <li><a class="details__link" href="#">Как купить</a></li>
-          <li><a class="details__link" href="#">Гарантия</a></li>
-          <li><a class="details__link" href="#">Доставка</a></li>
-        </ul>
-      </div>
-      <div class="user-block__profile profile">
-        <a class="profile__link" href="#">Мой арсенал</a>
-        <button class="profile__login-button"></button>
-      </div>
+      <div class="container_header">
+        <div class="user-block__address user-block__item address_header">
+          <button class="address__city-btn city-btn">Новосибирск</button>
+          <button class="address__street-btn street-btn">ул. Октябрьская, 34</button>
+        </div>
+        <div class="user-block__phone user-block__item phone">
+          <a href="tel: +73832408080" class="phone-number">(383) 240-80-80</a><a href="tel: +73832408000" class="phone-number">, 240-80-00</a>
+        </div>
+        <div class="user-block__details user-block__item details">
+          <ul class="details__menu">
+            <li class="details__menu-item"><a class="details-link" href="#">Как купить</a></li>
+            <li class="details__menu-item"><a class="details-link" href="#">Гарантия</a></li>
+            <li class="details__menu-item"><a class="details-link" href="#">Доставка</a></li>
+          </ul>
+        </div>
+        <div class="user-block__profile user-block__item profile">
+          <a class="profile__link profile-link" href="#">Мой арсенал</a>
+          <button class="profile__login-button login-button"></button>
+        </div>
+      <div class="container_header">
     </section>
     <section class="header__search-block search-block">
-      <div class="search-block__logo"></div>
-      <span class="search-block__slogan">Мы работаем на ваш талант!</span>
-      <div class="search-block__field search-field">
-        <form action="#" method="get" class="search-field__form search-form">
-          <input type="search" class="search-form__input" placeholder="Поиск товаров">
-          <input type="submit" class="search-form__submit">
-        </form>
-      </div>
-      <div class="search-block__cart cart">
-        <img class="cart__img" src="#">
-        <span class="cart__text">Корзина</span>
-        <span class="cart__number">25</span>
+      <div class="container_header">
+        <div class="search-block__logo"></div>
+        <span class="search-block__slogan">Мы работаем на ваш талант!</span>
+        <div class="search-block__field search-field">
+          <form action="#" method="get" class="search-field__form search-form">
+            <input type="search" class="search-form__input" placeholder="Поиск товаров">
+            <input type="submit" class="search-form__submit">
+          </form>
+        </div>
+        <div class="search-block__cart cart">
+          <img class="cart__img" src="#">
+          <span class="cart__text">Корзина</span>
+          <span class="cart__number">25</span>
+        </div>
       </div>
     </section>
     <section class="header__menu-block menu-block">
-      <ul class="menu-block__menu-level-1 menu-level-1">
-        <li><a class="menu-block__link menu-level-1__link" href="#">Акции</a></li>
-        <li>
-          <a class="menu-block__link menu-level-1__link" href="#">Музыкальные инструменты</a>
-          <ul class="menu-level-1__menu-level-2 menu-level-2">
-            <li><a class="menu-block__link menu-level-2__link" href="#">Гитары</a></li>
-            <li>
-              <a class="menu-block__link menu-level-2__link" href="#">Ударные</a>
-              <ul class="menu-level-2__menu-level-3 menu-level-3">
-                <li><a class="menu-block__link menu-level-3__link" href="#">Тарелки</a></li>
-                <li><a class="menu-block__link menu-level-3__link" href="#">Тренировочные пэды</a></li>
-                <li><a class="menu-block__link menu-level-3__link" href="#">Пластинки</a></li>
-                <li><a class="menu-block__link menu-level-3__link" href="#">Барабанные палочки</a></li>
-                <li><a class="menu-block__link menu-level-3__link" href="#">Чехлы, кейсы, сумки</a></li>
-                <li><a class="menu-block__link menu-level-3__link" href="#">Аксессуары</a></li>
-                <li><a class="menu-block__link menu-level-3__link" href="#">Перкуссия</a></li>
-              </ul>
-            </li>
-            <li><a class="menu-block__link menu-level-2__link" href="#">Клавишные</a></li>
-            <li><a class="menu-block__link menu-level-2__link" href="#">Духовые</a></li>
-            <li><a class="menu-block__link menu-level-2__link" href="#">Смычковые</a></li>
-            <li><a class="menu-block__link menu-level-2__link" href="#">Гародные</a></li>
-          </ul>
-        </li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">DJ</a></li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">Шоу-техника</a></li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">Студия</a></li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">Звук</a></li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">Свет</a></li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">Коммутация</a></li>
-        <li><a class="menu-block__link menu-level-1__link" href="#">Стойки</a></li>
-      </ul>
+      <div class="container_header">
+        <ul class="menu-block__menu-level-1 menu-level-1">
+          <li><a class="menu-block__link menu-level-1__link" href="#">Акции</a></li>
+          <li>
+            <a class="menu-block__link menu-level-1__link" href="#">Музыкальные инструменты</a>
+            <ul class="menu-level-1__menu-level-2 menu-level-2">
+              <li><a class="menu-block__link menu-level-2__link" href="#">Гитары</a></li>
+              <li>
+                <a class="menu-block__link menu-level-2__link" href="#">Ударные</a>
+                <ul class="menu-level-2__menu-level-3 menu-level-3">
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Тарелки</a></li>
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Тренировочные пэды</a></li>
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Пластинки</a></li>
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Барабанные палочки</a></li>
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Чехлы, кейсы, сумки</a></li>
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Аксессуары</a></li>
+                  <li><a class="menu-block__link menu-level-3__link" href="#">Перкуссия</a></li>
+                </ul>
+              </li>
+              <li><a class="menu-block__link menu-level-2__link" href="#">Клавишные</a></li>
+              <li><a class="menu-block__link menu-level-2__link" href="#">Духовые</a></li>
+              <li><a class="menu-block__link menu-level-2__link" href="#">Смычковые</a></li>
+              <li><a class="menu-block__link menu-level-2__link" href="#">Народные</a></li>
+            </ul>
+          </li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">DJ</a></li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">Шоу-техника</a></li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">Студия</a></li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">Звук</a></li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">Свет</a></li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">Коммутация</a></li>
+          <li><a class="menu-block__link menu-level-1__link" href="#">Стойки</a></li>
+        </ul>
+      </div>
     </section>
 
   </header>
