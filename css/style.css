@@ -9,7 +9,7 @@
 
 /*Header*/
 .container_header {
-  width: 942px;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .search-block__field {
-  margin-right: 25px;
+  margin-right: 23px;
 }
 
 .search-input {
@@ -205,4 +205,37 @@
 
 .search-block__cart {
   vertical-align: middle;
+}
+
+.menu-block {
+  min-height: 60px;
+  border-bottom: 2px solid #ef383f;
+}
+
+.menu-level {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.menu-level-1__menu-item {
+  display: inline-block;
+}
+
+.menu-level-2,
+.menu-level-3 {
+  display: none;
+}
+
+.menu-level-1__menu-item {
+  padding: 15px;
+}
+
+.menu-block__link {
+  font-size: 17px;
+}
+
+.menu-level-1__link_bold {
+  font-weight: bold;
+  color: #c1a25a;
 }
