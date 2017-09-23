@@ -7,11 +7,13 @@
   line-height: 20px;
 }
 
+/*Header*/
 .container_header {
   width: 942px;
   margin: 0 auto;
 }
 
+/*User Block*/
 .user-block {
   background-color: #af9559;
   min-height: 50px;
@@ -92,4 +94,68 @@
 
 .login-button {
   cursor: pointer;
+}
+
+/*Search Block*/
+.search-block {
+  border-bottom: 1px solid #d9d9d9;
+  min-height: 99px;
+}
+
+.search-block__item {
+  display: inline-block;
+}
+
+.logo {
+  height: 30px;
+  width: 350px;
+}
+
+.logo__item {
+  display: block;
+}
+
+.logo-img {
+  text-align: center;
+}
+
+.logo-slogan {
+  color: #777777;
+  text-align: center;
+}
+
+.search-block__logo {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.search-input {
+  width: 378px;
+  height: 38px;
+  border: 1px solid #777777;
+  border-radius: 2px;
+  padding-left: 13px;
+}
+
+.search-field__form {
+  position: relative;
+}
+
+.search-submit {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.search-form__submit {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.cart {
+  width: 148px;
+  height: 38px;
+  border: 1px solid #777777;
+  border-radius: 2px;
 }
