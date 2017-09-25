@@ -334,6 +334,11 @@
   font-size: 0;
 }
 
+.brands__links {
+  display: flex;
+  justify-content: space-between;
+}
+
 .brand-link {
   font-size: 14px;
 }
@@ -344,5 +349,5 @@
 
 .main__banner-switch_prev {
   position: absolute;
-  
+
 }
