@@ -7,9 +7,31 @@
   line-height: 20px;
 }
 
+.main__section_switch {
+  position: relative;
+}
+
+.more {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #503737;
+  display: block;
+  text-align: center;
+}
+
 /*Header*/
 .container_header {
   width: 940px;
+  margin: 0 auto;
+}
+
+.container_full {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container_small {
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -207,6 +229,7 @@
   vertical-align: middle;
 }
 
+/*Menu*/
 .menu-block {
   min-height: 60px;
   border-bottom: 2px solid #ef383f;
@@ -222,23 +245,104 @@
   display: inline-block;
 }
 
+.menu-level-1 {
+  position: relative;
+}
+
 .menu-level-2,
 .menu-level-3 {
-  display: none;
+  /*display: none;*/
+  position: absolute;
+  height: 458px;
+}
+
+.menu-level-2 {
+  width: 250px;
+  height: 442px;
+}
+
+.menu-level-3 {
+  width: 394px;
+  font-size: 16px;
+  padding-top: 22px;
+  padding-left: 46px;
+  color: #ffffff;
+  list-style-type: disc;
+  height: 436px;
 }
 
 .menu-level-1__menu-item {
-  padding: 20px 15px;
+  /*padding: 20px 15px;*/
 }
 
 .menu-block__link {
   font-size: 17px;
+  line-height: 20px;
   text-decoration: none;
   color: #503737;
   vertical-align: middle;
+  display: inline-block;
+  padding: 20px 15px;
+}
+
+.menu-block__link_lvl2 {
+  color: #ffffff;
+  padding: 6.5px 15px;
+  padding-left: 26px;
+  display: block;
+  font-size: 18px;
+}
+
+.menu-block__link_lvl3 {
+  line-height: 30px;
+  padding: 0;
+  color: #ffffff;
+
+}
+
+.menu-block__link_lvl2:hover {
+  background-color: #af9559;
 }
 
 .menu-level-1__link_bold {
   font-weight: bold;
   color: #c1a25a;
+}
+
+.instruments-sublevel {
+  top: 62px;
+  background-color: rgba(43, 43, 44, 0.8);
+  padding-top: 16px;
+  /*padding-left: 12px;*/
+}
+
+.percussion-sublevel {
+  left: 250px;
+  top: 0;
+  background-color: #af9559;
+}
+
+/*Main*/
+/*Banner*/
+.banner-section {
+  height: 460px;
+}
+
+/*Brands*/
+.brands {
+  height: 130px;
+  font-size: 0;
+}
+
+.brand-link {
+  font-size: 14px;
+}
+
+.brands__brand-link {
+  display: inline-block;
+}
+
+.main__banner-switch_prev {
+  position: absolute;
+  
 }
